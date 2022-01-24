@@ -1,0 +1,17 @@
+version={1,0,0}
+function remote_supported_control_surfaces()
+    local surfaces =
+    {
+        {
+            manufacturer="Novation",
+            model="LaunchControl XL ext",
+            source="launch_control_xl.lua",
+            picture="Launchkey Mini MK3 Ext.png",
+            in_ports={ {description="Launch Control XL MIDI Port"} },
+            out_ports={ {description="Launch Control XL Port HUI"} },
+            has_keyboard=false,
+        }
+    }
+    return surfaces
+end
+

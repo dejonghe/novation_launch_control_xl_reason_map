@@ -1,0 +1,391 @@
+Propellerhead Remote Mapping File
+
+File Format Version	1.0.0
+
+Control Surface Manufacturer	Novation
+
+Control Surface Model	LaunchControl XL Ext
+
+Map Version	1.0.0
+
+
+Scope	Propellerheads	Master Keyboard
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+
+
+Scope	Propellerheads	Reason Document
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+//Map	Track Up		Target Previous Track
+//Map	Track Down		Target Next Track
+//Map	Shift Cliplaunch 1		Select Prev Patch for Target Device
+//Map	Shift Cliplaunch 2		Select Next Patch for Target Device
+//Map	Shifted Record		Loop On/Off
+//Map	Shifted Play		Stop
+//Map	Play		Play
+//Map	Record		Record
+//Map	Session Pad 1		Target Track Mute
+//Map	Session Pad 2		Target Track Solo
+//Map	Session Pad 7		Goto Left Locator
+//Map	Session Pad 8		Goto Right Locator
+//Map	Session Pad 15		Move Loop Left
+//Map	Session Pad 16		Move Loop Right
+
+
+Scope	Propellerheads	Record Document
+//	Control Surface Item	Key	Remotable Item	Scale	Mode
+//Map	Track Up		Target Next Track
+//Map	Track Down		Target Previous Track
+//Map	Shifted Record		Loop On/Off
+//Map	Shifted Play		Stop
+//Map	Play		Play
+//Map	Record		Record
+//Map	Session Pad 15		Move Loop One bar Left
+//Map	Session Pad 16		Move Loop One bar Right
+
+
+Scope	Propellerheads	Reason Master Section
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
+Map	User 1 Track 1 Fader 1		Channel 1 Level
+Map	User 1 Track 2 Fader 1		Channel 2 Level
+Map	User 1 Track 3 Fader 1		Channel 3 Level
+Map	User 1 Track 4 Fader 1		Channel 4 Level
+Map	User 1 Track 5 Fader 1		Channel 5 Level
+Map	User 1 Track 6 Fader 1		Channel 6 Level
+Map	User 1 Track 7 Fader 1		Channel 7 Level
+Map	User 1 Track 8 Fader 1		Channel 8 Level
+//Map	User 1 Track 1 Knob 1		Rotary 1
+//Map	User 1 Track 1 Fader 1		Master Level
+//Map	User 1 Track 2 Fader 1		Channel 1 Level
+//Map	User 1 Track 3 Fader 1		Channel 2 Level
+//Map	Device Knob 1		Rotary 1
+//Map	Device Knob 2		Rotary 2
+//Map	Device Knob 3		Rotary 3
+//Map	Device Knob 4		Rotary 4
+//Map	Drum Pad 1		Button 1
+//Map	Drum Pad 2		Button 2
+//Map	Drum Pad 3		Button 3
+//Map	Drum Pad 4		Button 4
+
+
+Scope	Propellerheads	Reason Main Mixer Channel 1
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
+//Map	User 1 Track 2 Fader 1		Level
+//Map	User 1 Track 2 Knob 1		Channel 1 LPF Frequency
+//Map	User 1 Track 1 Knob 1		Rotary 1
+//Map	Device Knob 2		Rotary 2
+//Map	Device Knob 3		Rotary 3
+//Map	Device Knob 4		Rotary 4
+//Map	Drum Pad 1		Button 1
+//Map	Drum Pad 2		Button 2
+//Map	Drum Pad 3		Button 3
+//Map	Drum Pad 4		Button 4
+
+
+Scope	Propellerheads	Combinator
+//	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
+//Map	Device Knob 1		Rotary 1
+//Map	Device Knob 2		Rotary 2
+//Map	Device Knob 3		Rotary 3
+//Map	Device Knob 4		Rotary 4
+//Map	Drum Pad 1		Button 1
+//Map	Drum Pad 2		Button 2
+//Map	Drum Pad 3		Button 3
+//Map	Drum Pad 4		Button 4
+//
+//
+//Scope	Propellerheads	Redrum Drum Computer
+////	Control Surface Item	Key	Remotable Item	Scale	Mode
+//Map	Cliplaunch 1		Run
+//Map	Device Knob 1		Selected Drum
+//Map	Device Knob 2		Pattern Select in Bank
+//Map	Device Knob 3		Bank Select
+//Map	Drum Pad 1		Selected Drum Toggle Step 1
+//Map	Drum Pad 2		Selected Drum Toggle Step 2
+//Map	Drum Pad 3		Selected Drum Toggle Step 3
+//Map	Drum Pad 4		Selected Drum Toggle Step 4
+//Map	Drum Pad 5		Selected Drum Toggle Step 5
+//Map	Drum Pad 6		Selected Drum Toggle Step 6
+//Map	Drum Pad 7		Selected Drum Toggle Step 7
+//Map	Drum Pad 8		Selected Drum Toggle Step 8
+//Map	Drum Pad 9		Selected Drum Toggle Step 9
+//Map	Drum Pad 10		Selected Drum Toggle Step 10
+//Map	Drum Pad 11		Selected Drum Toggle Step 11
+//Map	Drum Pad 12		Selected Drum Toggle Step 12
+//Map	Drum Pad 13		Selected Drum Toggle Step 13
+//Map	Drum Pad 14		Selected Drum Toggle Step 14
+//Map	Drum Pad 15		Selected Drum Toggle Step 15
+//Map	Drum Pad 16		Selected Drum Toggle Step 16
+//
+//
+//Scope	Propellerheads	SubTractor Analog Synthesizer
+////	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
+//Map	Device Knob 1		Filter Freq
+//Map	Device Knob 2		Filter Res
+//Map	Device Knob 3		Filter Env Amount
+//Map	Device Knob 4		Osc1 Phase Diff
+//Map	Device Knob 5		Osc1 Wave
+//Map	Device Knob 6		FM Amount
+//Map	Device Knob 7		LFO1 Rate
+//Map	Device Knob 8		LFO1 Amount
+//
+//
+//Scope	Propellerheads	Malstrom Graintable Synthesizer
+////	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
+//Map	Device Knob 1		Oscillator A Motion
+//Map	Device Knob 2		Oscillator A Index
+//Map	Device Knob 3		Oscillator A Shift
+//Map	Device Knob 4		Modulator A Rate
+//Map	Device Knob 5		Modulator B Rate
+//Map	Device Knob 6		Shaper Amount
+//Map	Device Knob 7		Filter A Freq
+//Map	Device Knob 8		Filter A Resonance
+//
+//
+//Scope	Propellerhead Software	se.propellerheads.Monotone
+////	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
+//Map	Device Knob 1		Filter Freq
+//Map	Device Knob 2		Filter Reso
+//Map	Device Knob 3		Filter Env Amount
+//Map	Device Knob 4		Filter Drive
+//Map	Device Knob 5		Osc Mix
+//Map	Device Knob 6		FM Env Amt
+//Map	Device Knob 7		Chorus Amount
+//Map	Device Knob 8		Delay Amount
+//
+//
+//Scope	Propellerheads	NN-XT Advanced Sampler
+////	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
+//Map	Device Knob 1		Filter Freq
+//Map	Device Knob 2		Filter Res
+//Map	Device Knob 3		Amp Env Attack
+//Map	Device Knob 4		Amp Env Decay
+//Map	Device Knob 5		Amp Env Release
+//Map	Device Knob 6		Mod Env Decay
+//
+//
+//Scope	Propellerheads	NN19 Digital Sampler
+////	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
+//Map	Device Knob 1		Filter Freq
+//Map	Device Knob 2		Filter Res
+//Map	Device Knob 3		Filter Env Amount
+//Map	Device Knob 4		Filter Env Decay
+//Map	Device Knob 5		Sample Start
+//Map	Device Knob 6		LFO Rate
+//Map	Device Knob 7		LFO Amount
+//Map	Device Knob 8		Master Level
+//Map	Cliplaunch 1		Sample
+//
+//
+//Scope	Propellerheads	Dr.REX Loop Player
+////	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
+//Map	Device Knob 1		Filter Freq
+//Map	Device Knob 2		Filter Res
+//Map	Device Knob 3		Filter Env Amount
+//Map	Device Knob 4		Filter Mode
+//Map	Device Knob 5		Amp Env Attack
+//Map	Device Knob 6		Amp Env Decay
+//Map	Device Knob 7		Amp Env Sustain
+//Map	Device Knob 8		Amp Env Release
+//Map	Drum Pad 1		Select Loop 1
+//Map	Drum Pad 2		Select Loop 2
+//Map	Drum Pad 3		Select Loop 3
+//Map	Drum Pad 4		Select Loop 4
+//Map	Drum Pad 5		Select Loop 5
+//Map	Drum Pad 6		Select Loop 6
+//Map	Drum Pad 7		Select Loop 7
+//Map	Drum Pad 8		Select Loop 8
+//Map	Cliplaunch 1		Run
+//
+//
+//Scope	Propellerhead Software	se.propellerheads.Europa
+////	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
+//Map	Device Knob 1		Osc1 Shape
+//Map	Device Knob 2		Osc1 Mod1 Amt
+//Map	Device Knob 3		Osc1 Mod2 Amt
+//Map	Device Knob 4		Filter Freq
+//Map	Device Knob 5		Filter Reso
+//Map	Device Knob 6		Filter Drive
+//Map	Cliplaunch 1		Record Sample
+//
+//
+//Scope	Propellerheads	Thor Polysonic Synthesizer
+////	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
+Map	User 1 Track 1 Knob 1		Osc 1 Oct
+//Map	Device Knob 2		Rotary 2
+//Map	Device Knob 3		Osc 1 And 2 Balance
+//Map	Device Knob 4		Shaper Drive
+//Map	Device Knob 5		Osc 1 Param B
+//Map	Device Knob 6		Osc 1 Oct
+//Map	Device Knob 7		Osc 1 Semi
+//Map	Device Knob 8		Osc 1 Kbd
+//Map	Volume Knob 1		Osc 2 Param B
+//Map	Volume Knob 2		Osc 2 Oct
+//Map	Volume Knob 3		Osc 2 Semi
+//Map	Volume Knob 4		Osc 2 Kbd
+//Map	Volume Knob 5		Osc 3 Param B
+//Map	Volume Knob 6		Osc 3 Oct
+//Map	Volume Knob 7		Osc 3 Semi
+//Map	Volume Knob 8		Osc 3 Kbd
+//Map	Pan Knob 1		Filter 1 Drive
+//Map	Pan Knob 2		Filter 1 Freq
+//Map	Pan Knob 3		Filter 1 Env Amount
+//Map	Pan Knob 4		Filter 1 Res
+//Map	Pan Knob 5		Filter 2 Drive
+//Map	Pan Knob 6		Filter 2 Freq
+//Map	Pan Knob 7		Filter 2 Env Amount
+//Map	Pan Knob 8		Filter 2 Res
+//Map	Send A Knob 1		Pattern Step Knob 1
+//Map	Send A Knob 2		Pattern Step Knob 2
+//Map	Send A Knob 3		Pattern Step Knob 3
+//Map	Send A Knob 4		Pattern Step Knob 4
+//Map	Send A Knob 5		Pattern Step Knob 5
+//Map	Send A Knob 6		Pattern Step Knob 6
+//Map	Send A Knob 7		Pattern Step Knob 7
+//Map	Send A Knob 8		Pattern Step Knob 8
+//Map	Send B Knob 1		Pattern Step Knob 9
+//Map	Send B Knob 2		Pattern Step Knob 10
+//Map	Send B Knob 3		Pattern Step Knob 11
+//Map	Send B Knob 4		Pattern Step Knob 12
+//Map	Send B Knob 5		Pattern Step Knob 13
+//Map	Send B Knob 6		Pattern Step Knob 14
+//Map	Send B Knob 7		Pattern Step Knob 15
+//Map	Send B Knob 8		Pattern Step Knob 16
+//Map	Custom Knob 1		Filter Env Attack
+//Map	Custom Knob 2		Filter Env Decay
+//Map	Custom Knob 3		Filter Env Sustain
+//Map	Custom Knob 4		Filter Env Release
+//Map	Custom Knob 5		Amp Env Attack
+//Map	Custom Knob 6		Amp Env Decay
+//Map	Custom Knob 7		Amp Env Sustain
+//Map	Custom Knob 8		Amp Env Release
+//Map	Drum Pad 1		Pattern Step Gate 1
+//Map	Drum Pad 2		Pattern Step Gate 2
+//Map	Drum Pad 3		Pattern Step Gate 3
+//Map	Drum Pad 4		Pattern Step Gate 4
+//Map	Drum Pad 5		Pattern Step Gate 5
+//Map	Drum Pad 6		Pattern Step Gate 6
+//Map	Drum Pad 7		Pattern Step Gate 7
+//Map	Drum Pad 8		Pattern Step Gate 8
+//Map	Drum Pad 9		Pattern Step Gate 9
+//Map	Drum Pad 10		Pattern Step Gate 10
+//Map	Drum Pad 11		Pattern Step Gate 11
+//Map	Drum Pad 12		Pattern Step Gate 12
+//Map	Drum Pad 13		Pattern Step Gate 13
+//Map	Drum Pad 14		Pattern Step Gate 14
+//Map	Drum Pad 15		Pattern Step Gate 15
+//Map	Drum Pad 16		Pattern Step Gate 16
+//Map	Cliplaunch 1		Button 1
+//Map	Cliplaunch 2		Button 2
+//
+//
+//Scope	Propellerhead Software	se.propellerheads.radicalpiano
+////	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
+//Map	Device Knob 1		Character
+//Map	Device Knob 2		Microphone and Instrument Blend
+//Map	Device Knob 3		Env Decay Curve
+//Map	Device Knob 4		Env Release
+//Map	Device Knob 5		Ambience Level
+//Map	Device Knob 6		Compression Amount
+//
+//
+//Scope	Novation	vst.NvB2.BassStation
+////	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
+//Map	Shift Cliplaunch 1		Select Previous Program
+//Map	Shift Cliplaunch 2		Select Next Program
+//Map	Device Knob 1		Filter Frequency
+//Map	Device Knob 2		Filter Resonance
+//Map	Device Knob 3		Mod Env > Filter Freq
+//Map	Device Knob 4		Lfo Speed
+//Map	Device Knob 5		Osc1 Pulse Width
+//Map	Device Knob 6		Osc2 Pulse Width
+//Map	Device Knob 7		Mix
+//Map	Device Knob 8		Osc2 Detune
+//Map	Drum Pad 1		Filter Slope
+//Map	Drum Pad 2		Osc1 Waveform
+//Map	Drum Pad 3		Osc2 Waveform
+//
+//
+//Scope	Novation	vst.NvS0.VStation
+////	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
+//Map	Shift Cliplaunch 1		Select Previous Program
+//Map	Shift Cliplaunch 2		Select Next Program
+//Map	Device Knob 1		Filter Frequency
+//Map	Device Knob 2		Filter Resonance
+//Map	Device Knob 3		Filter Overdrive
+//Map	Device Knob 4		Filter Q Normalise
+//Map	Device Knob 5		Mod Env > Filter Freq
+//Map	Device Knob 6		Mod Attack
+//Map	Device Knob 7		Mod Decay
+//Map	Device Knob 8		Osc1 PWM Pos
+//Map	Drum Pad 1		Filter Slope
+//
+//
+//Scope	Propellerheads	Matrix Pattern Sequencer
+////	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
+//Map	Device Knob 1		Resolution
+//Map	Drum Pad 1		Pattern 1
+//Map	Drum Pad 2		Pattern 2
+//Map	Drum Pad 3		Pattern 3
+//Map	Drum Pad 4		Pattern 4
+//Map	Drum Pad 5		Pattern 5
+//Map	Drum Pad 6		Pattern 6
+//Map	Drum Pad 7		Pattern 7
+//Map	Drum Pad 8		Pattern 8
+//Map	Drum Pad 9		Bank A
+//Map	Drum Pad 10		Bank B
+//Map	Drum Pad 11		Bank C
+//Map	Drum Pad 12		Bank D
+//Map	Cliplaunch 1		Run
+//
+//
+//Scope	Propellerheads	Line Mixer 6:2
+////	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
+//Map	Device Knob 1		Channel 1 Level
+//Map	Device Knob 2		Channel 2 Level
+//Map	Device Knob 3		Channel 3 Level
+//Map	Device Knob 4		Channel 4 Level
+//Map	Device Knob 5		Channel 5 Level
+//Map	Device Knob 6		Channel 6 Level
+//Map	Device Knob 7		Aux Return Level
+//Map	Device Knob 8		Master Level
+//Map	Drum Pad 1		Channel 1 Mute
+//Map	Drum Pad 2		Channel 2 Mute
+//Map	Drum Pad 3		Channel 3 Mute
+//Map	Drum Pad 4		Channel 4 Mute
+//Map	Drum Pad 5		Channel 5 Mute
+//Map	Drum Pad 6		Channel 6 Mute
+//Map	Drum Pad 9		Channel 1 Solo
+//Map	Drum Pad 10		Channel 2 Solo
+//Map	Drum Pad 11		Channel 3 Solo
+//Map	Drum Pad 12		Channel 4 Solo
+//Map	Drum Pad 13		Channel 5 Solo
+//Map	Drum Pad 14		Channel 6 Solo
+//Map	Cliplaunch 1		Aux Pre/Post
+//
+//
+//Scope	Propellerheads	The Echo
+////	Control Surface Item	Key	Remotable Item	Scale	Mode	Groups
+//Map	Device Knob 1		Delay Time
+//Map	Device Knob 2		Feedback
+//Map	Device Knob 3		Drive Amount
+//Map	Device Knob 4		Filter Frequency
+//Map	Device Knob 5		Filter Resonance
+//Map	Device Knob 6		LFO Rate
+//Map	Device Knob 7		LFO Amount
+//Map	Device Knob 8		Roll Enabled
+//Map	Drum Pad 4		Filter On
+//
+//
+//Scope	Rob Papen	com.robpapen.SubBoomBaseRE
+//
+//Scope	Rob Papen	com.robpapen.PunchBDRE
+//
+//Scope	AudioRealism	se.audiorealism.abl3
+//Map	Device Knob 1		Pattern
+//Map	Device Knob 2		Tuning
+//Map	Device Knob 3		Cutoff
+//Map	Device Knob 4		Resonance
+//Map	Device Knob 5		Envmod
+//Map	Device Knob 6		Decay
+//Map	Device Knob 7		Drive
+//Map	Device Knob 8		Distortion
